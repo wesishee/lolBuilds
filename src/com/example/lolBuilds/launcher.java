@@ -3,14 +3,15 @@ package com.example.lolBuilds;
 import android.app.Activity;
 import android.os.Bundle;
 
-public class HelloWorld extends Activity {
-    /**
-     * Called when the activity is first created.
-     */
+/**
+ * Created by wishee on 8/29/14.
+ */
+public class launcher extends Activity{
+
     @Override
-    public void onCreate(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
     }
+
 }
-// comment for change
